@@ -1,0 +1,16 @@
+{
+    "name": "rutinerad/parse-torrent-name",
+    "description": "Parses torrent name of a movie or TV show",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samuel Lindblom",
+            "email": "samuel@lnd.fi"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"Rutinerad\\TorrentNameParser\\": "src/"}
+    }
+}
